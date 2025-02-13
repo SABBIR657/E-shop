@@ -55,14 +55,14 @@ export default function MessageSend() {
                                 <div className="flex flex-col w-1/2 p-4">
                                     <h2 className="mb-2 ml-2 font-geist font-medium text-lg">Email Address</h2>
                                     <Input className="w-full h-[64px] rounded-[24px] border-[1px] p-[20px]"
-                                        {...register("email", { required: true })} type="email" placeholder="Email Address" />
+                                        {...register("email", { required: true })} type="email" placeholder="abc@gmail.com" />
                                 </div>
 
                                 {/* Phone Number */}
                                 <div className="flex flex-col w-1/2 p-4">
                                     <h2 className="mb-2 ml-2 font-geist font-medium text-lg">Phone Number</h2>
                                     <Input className="w-full h-[64px] rounded-[24px] border-[1px] p-[20px]"
-                                        {...register("phone", { required: true })} type="tel" placeholder="Phone Number" />
+                                        {...register("phone", { required: true })} type="tel" placeholder="1234567" />
                                 </div>
                             </div>
 
